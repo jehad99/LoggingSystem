@@ -8,5 +8,6 @@ namespace DistributedLoggingSystem.Models
         {
         }
         public DbSet<BatchMetadata> BatchMetadata { get; set; }
+        public DbSet<Log> Logs { get; set; }
     }
 }

@@ -2,6 +2,7 @@ using Amazon.Runtime;
 using Amazon.S3;
 using DistributedLoggingSystem.Models;
 using DistributedLoggingSystem.Services;
+using DistributedLoggingSystem.Services.BackEndStorageTypes;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -35,7 +36,12 @@ builder.Services.AddHttpClient<S3HttpClientService>();
 //    return new AmazonS3Client(credentials, config);
 //});
 
-builder.Services.AddSingleton<BatchLogService>(); 
+builder.Services.AddSingleton<BatchLogService>();
+builder.Services.AddSingleton<S3LogStorageBackend>();
+builder.Services.AddSingleton<DatabaseLogStorageBackend>();
+builder.Services.AddSingleton<FileSystemLogStorageBackend>();
+builder.Services.AddSingleton<LogStorageBackendFactory>();
+
 var app = builder.Build();
 
 // Ensure the logs bucket exists on startup
