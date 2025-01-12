@@ -38,6 +38,14 @@ builder.Services.AddSingleton<IAmazonS3>(sp =>
 builder.Services.AddSingleton<BatchLogService>(); 
 var app = builder.Build();
 
+// Ensure the logs bucket exists on startup
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var batchLogService = services.GetRequiredService<BatchLogService>();
+
+    await batchLogService.EnsureBucketExistsAsync();
+}
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

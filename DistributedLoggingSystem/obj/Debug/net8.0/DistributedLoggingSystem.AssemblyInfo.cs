@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DistributedLoggingSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9d62439dddc4030b09fb3c96968c97351d31b74")]
 [assembly: System.Reflection.AssemblyProductAttribute("DistributedLoggingSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DistributedLoggingSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

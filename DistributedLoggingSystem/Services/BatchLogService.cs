@@ -19,7 +19,7 @@ namespace DistributedLoggingSystem.Services
         public BatchLogService(IAmazonS3 s3Client, IConfiguration configuration, LoggingDbContext context)
         {
             _s3Client = s3Client;
-            _bucketName = configuration["S3BucketName"] ?? "logs";
+            _bucketName = configuration["S3BucketName"] ?? "log";
             _batchSize = int.Parse(configuration["BatchSize"] ?? "10");
             _context = context;
         }
@@ -196,6 +196,34 @@ namespace DistributedLoggingSystem.Services
 
             return logs;
         }
+        public async Task EnsureBucketExistsAsync()
+        {
+            try
+            {
+                var buckets = await _s3Client.ListBucketsAsync();
+
+                // Check if the bucket already exists
+                if (!buckets.Buckets.Any(b => b.BucketName == _bucketName))
+                {
+                    await _s3Client.PutBucketAsync(new PutBucketRequest
+                    {
+                        BucketName = _bucketName
+                    });
+
+                    Console.WriteLine($"Bucket '{_bucketName}' created successfully.");
+                }
+                else
+                {
+                    Console.WriteLine($"Bucket '{_bucketName}' already exists.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error creating bucket: {ex.Message}");
+                throw;
+            }
+        }
+
     }
 
     public class PaginatedResponse<T>

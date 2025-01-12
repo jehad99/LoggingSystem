@@ -3,15 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|c:\\users\\jehad\\source\\repos\\loggingsystem\\distributedloggingsystem\\services\\batchlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|solutionrelative:services\\batchlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|c:\\users\\jehad\\source\\repos\\loggingsystem\\distributedloggingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|c:\\users\\jehad\\source\\repos\\loggingsystem\\distributedloggingsystem\\models\\batchmetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|solutionrelative:models\\batchmetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jehad\\AppData\\Local\\Temp\\0cf2e220-3905-4e05-9e7e-c12a2dee5c3b_project-bolt-sb1-wa3ydgrh.zip.c3b\\project\\proxy.conf.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|c:\\users\\jehad\\source\\repos\\loggingsystem\\distributedloggingsystem\\controllers\\logscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|solutionrelative:controllers\\logscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|c:\\users\\jehad\\source\\repos\\loggingsystem\\distributedloggingsystem\\services\\batchlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|solutionrelative:services\\batchlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|c:\\users\\jehad\\source\\repos\\loggingsystem\\distributedloggingsystem\\models\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,10 +46,6 @@
       "RelativeMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|solutionrelative:migrations\\20250109210829_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|c:\\users\\jehad\\source\\repos\\loggingsystem\\distributedloggingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|c:\\users\\jehad\\source\\repos\\loggingsystem\\distributedloggingsystem\\models\\loggingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|solutionrelative:models\\loggingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -64,7 +68,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -72,20 +76,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "BatchMetadata.cs",
+              "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Models\\BatchMetadata.cs",
+              "RelativeDocumentMoniker": "Models\\BatchMetadata.cs",
+              "ToolTip": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Models\\BatchMetadata.cs",
+              "RelativeToolTip": "Models\\BatchMetadata.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:29:59.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "proxy.conf.json",
               "DocumentMoniker": "C:\\Users\\Jehad\\AppData\\Local\\Temp\\0cf2e220-3905-4e05-9e7e-c12a2dee5c3b_project-bolt-sb1-wa3ydgrh.zip.c3b\\project\\proxy.conf.json",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\0cf2e220-3905-4e05-9e7e-c12a2dee5c3b_project-bolt-sb1-wa3ydgrh.zip.c3b\\project\\proxy.conf.json",
               "ToolTip": "C:\\Users\\Jehad\\AppData\\Local\\Temp\\0cf2e220-3905-4e05-9e7e-c12a2dee5c3b_project-bolt-sb1-wa3ydgrh.zip.c3b\\project\\proxy.conf.json [Read Only]",
               "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\0cf2e220-3905-4e05-9e7e-c12a2dee5c3b_project-bolt-sb1-wa3ydgrh.zip.c3b\\project\\proxy.conf.json [Read Only]",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-01-12T04:37:09.884Z",
               "EditorCaption": " [Read Only]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Log.cs",
               "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Models\\Log.cs",
               "RelativeDocumentMoniker": "Models\\Log.cs",
@@ -93,12 +109,11 @@
               "RelativeToolTip": "Models\\Log.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T02:34:32.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-12T02:34:32.366Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "20250109210829_Init.cs",
               "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Migrations\\20250109210829_Init.cs",
               "RelativeDocumentMoniker": "Migrations\\20250109210829_Init.cs",
@@ -110,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "LoggingDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Models\\LoggingDbContext.cs",
               "RelativeDocumentMoniker": "Models\\LoggingDbContext.cs",
@@ -122,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "LogsController.cs",
               "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Controllers\\LogsController.cs",
               "RelativeDocumentMoniker": "Controllers\\LogsController.cs",
@@ -130,37 +145,37 @@
               "RelativeToolTip": "Controllers\\LogsController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwCEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T16:57:55.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T16:57:55.738Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "BatchLogService.cs",
               "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Services\\BatchLogService.cs",
               "RelativeDocumentMoniker": "Services\\BatchLogService.cs",
               "ToolTip": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Services\\BatchLogService.cs",
               "RelativeToolTip": "Services\\BatchLogService.cs",
-              "ViewState": "AgIAAMAAAAAAAAAAAADwv8wAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBUAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T12:07:00.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T12:02:06.819Z"
+              "WhenOpened": "2025-01-10T12:02:06.819Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -168,12 +183,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAB7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-10T19:35:10.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T19:35:10.068Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
@@ -181,12 +195,11 @@
               "RelativeToolTip": "Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-01-10T11:12:02.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T11:12:02.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "LoggingDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Migrations\\LoggingDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\LoggingDbContextModelSnapshot.cs",
@@ -198,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "20250109233138_removeLogAndAddmetadatefile.cs",
               "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Migrations\\20250109233138_removeLogAndAddmetadatefile.cs",
               "RelativeDocumentMoniker": "Migrations\\20250109233138_removeLogAndAddmetadatefile.cs",
@@ -210,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\Logging system\\docker-compose.yml",
               "RelativeDocumentMoniker": "..\\..\\Logging system\\docker-compose.yml",
@@ -221,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "README.txt",
               "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\README.txt",
               "RelativeDocumentMoniker": "README.txt",
@@ -233,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Dockerfile.original",
               "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Dockerfile.original",
               "RelativeDocumentMoniker": "Dockerfile.original",
