@@ -18,34 +18,34 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddHttpClient<S3HttpClientService>();
+//builder.Services.AddSingleton<IAmazonS3>(sp =>
+//{
+//    var config = new AmazonS3Config
+//    {
+//        ServiceURL = builder.Configuration["AWS:ServiceURL"], // MinIO endpoint
+//        ForcePathStyle = true // Ensure compatibility with MinIO
+//    };
 
-builder.Services.AddSingleton<IAmazonS3>(sp =>
-{
-    var config = new AmazonS3Config
-    {
-        ServiceURL = builder.Configuration["AWS:ServiceURL"], // MinIO endpoint
-        ForcePathStyle = true // Ensure compatibility with MinIO
-    };
+//    var credentials = new BasicAWSCredentials(
+//        builder.Configuration["AWS:AccessKeyId"], // Access key
+//        builder.Configuration["AWS:SecretAccessKey"] // Secret key
+//    );
 
-    var credentials = new BasicAWSCredentials(
-        builder.Configuration["AWS:AccessKeyId"], // Access key
-        builder.Configuration["AWS:SecretAccessKey"] // Secret key
-    );
-
-    return new AmazonS3Client(credentials, config);
-});
+//    return new AmazonS3Client(credentials, config);
+//});
 
 builder.Services.AddSingleton<BatchLogService>(); 
 var app = builder.Build();
 
 // Ensure the logs bucket exists on startup
-using (var scope = app.Services.CreateScope())
-{
-    var services = scope.ServiceProvider;
-    var batchLogService = services.GetRequiredService<BatchLogService>();
+//using (var scope = app.Services.CreateScope())
+//{
+//    var services = scope.ServiceProvider;
+//    var batchLogService = services.GetRequiredService<BatchLogService>();
 
-    await batchLogService.EnsureBucketExistsAsync();
-}
+//    await batchLogService.EnsureBucketExistsAsync();
+//}
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

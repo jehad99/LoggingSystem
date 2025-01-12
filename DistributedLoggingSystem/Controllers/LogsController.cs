@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DistributedLoggingSystem.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("v1/[controller]")]
     [ApiController]
     public class LogsController : ControllerBase
     {
