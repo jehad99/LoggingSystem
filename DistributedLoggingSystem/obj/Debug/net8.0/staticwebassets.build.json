@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "hiTP4LeC5msWKXF0i2/XYrkumaNyQ1TNuCCJ6GYcYHU=",
+  "Source": "DistributedLoggingSystem",
+  "BasePath": "_content/DistributedLoggingSystem",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

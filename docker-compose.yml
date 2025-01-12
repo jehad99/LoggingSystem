@@ -1,0 +1,104 @@
+version: "3.8"
+services:
+#SQL Server configuration
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=1StrongPwd!!
+      - MSSQL_PID=Developer
+    user: root
+    ports:
+      - 1433:1433
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+    restart: always
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P 1StrongPwd!! -C -Q 'SELECT 1' || exit 1"]
+      interval: 10s
+      retries: 10
+      start_period: 10s
+      timeout: 3s
+    networks:
+      - backend
+
+  sqlserver.configurator:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    user: root
+    volumes:
+      - ./init:/docker-entrypoint-initdb.d
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+    command: >
+      bash -c '
+      /opt/mssql-tools18/bin/sqlcmd -S sqlserver -U sa -P 1StrongPwd!! -C -d master -i docker-entrypoint-initdb.d/init.sql;
+      echo "All done!";
+      '
+    networks:
+      - backend
+
+  #Minio Free S3 storage
+  minio:
+    image: minio/minio
+    environment:
+      MINIO_ROOT_USER: "minioadmin"
+      MINIO_ROOT_PASSWORD: "minioadmin"
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    command: server /data --console-address ":9001"
+    volumes:
+      - minio-data:/data
+    networks:
+      - backend
+    
+#.net core api 
+  distributed-logging-api:
+    build:
+      context: ./DistributedLoggingSystem
+    environment:
+      AWS__AccessKeyId: "minioadmin"
+      AWS__SecretAccessKey: "minioadmin"
+      AWS__ServiceURL: "http://minio:9000" # Updated for host networking
+      AWS__BucketName: "logs"
+      ConnectionStrings__DefaultConnection: "Server=sqlserver;Database=LoggingDB;User ID=sa;Password=1StrongPwd!!;TrustServerCertificate=True"
+      DOTNET_URLS: "http://0.0.0.0:8080"
+      DOTNET_ENVIRONMENT: "Development"
+    depends_on:
+      - minio
+      - sqlserver
+    ports:
+      - "8080:8080"
+    networks:
+      - backend
+
+#Angular App
+  log-viewer:
+    build:
+      context: ./log-viewer
+    environment:
+      BACKEND_API_URL: "http://localhost:8080/api/logs"
+    ports:
+      - "4200:4200"
+    networks:
+      - backend  
+
+  #python external file to generate logs and send to the API  
+  log-producer:
+    build:
+      context: ./log-producer
+    depends_on:
+      - distributed-logging-api
+    environment:
+      API_URL: "http://distributed-logging-api:8080/api/logs/add"
+    networks:
+      - backend
+       
+volumes:
+  minio-data:
+  sqlserver_data:
+
+networks:
+  backend:
+    driver: bridge

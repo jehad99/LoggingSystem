@@ -1,0 +1,281 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jehad\\AppData\\Local\\Temp\\0cf2e220-3905-4e05-9e7e-c12a2dee5c3b_project-bolt-sb1-wa3ydgrh.zip.c3b\\project\\proxy.conf.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|c:\\users\\jehad\\source\\repos\\loggingsystem\\distributedloggingsystem\\controllers\\logscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|solutionrelative:controllers\\logscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|c:\\users\\jehad\\source\\repos\\loggingsystem\\distributedloggingsystem\\services\\batchlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|solutionrelative:services\\batchlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|c:\\users\\jehad\\source\\repos\\loggingsystem\\distributedloggingsystem\\models\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|solutionrelative:models\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|c:\\users\\jehad\\source\\repos\\loggingsystem\\distributedloggingsystem\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|c:\\users\\jehad\\source\\repos\\loggingsystem\\distributedloggingsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|c:\\users\\jehad\\source\\repos\\loggingsystem\\distributedloggingsystem\\migrations\\loggingdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|solutionrelative:migrations\\loggingdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|c:\\users\\jehad\\source\\repos\\loggingsystem\\distributedloggingsystem\\migrations\\20250109233138_removelogandaddmetadatefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|solutionrelative:migrations\\20250109233138_removelogandaddmetadatefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|c:\\users\\jehad\\source\\repos\\loggingsystem\\distributedloggingsystem\\migrations\\20250109210829_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|solutionrelative:migrations\\20250109210829_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|c:\\users\\jehad\\source\\repos\\loggingsystem\\distributedloggingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|c:\\users\\jehad\\source\\repos\\loggingsystem\\distributedloggingsystem\\models\\loggingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|solutionrelative:models\\loggingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jehad\\source\\repos\\Logging system\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|c:\\users\\jehad\\source\\repos\\loggingsystem\\distributedloggingsystem\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|solutionrelative:readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|c:\\users\\jehad\\source\\repos\\loggingsystem\\distributedloggingsystem\\dockerfile.original||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5430AAA8-A83B-4242-BD34-105C6F7FBD2E}|DistributedLoggingSystem.csproj|solutionrelative:dockerfile.original||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "proxy.conf.json",
+              "DocumentMoniker": "C:\\Users\\Jehad\\AppData\\Local\\Temp\\0cf2e220-3905-4e05-9e7e-c12a2dee5c3b_project-bolt-sb1-wa3ydgrh.zip.c3b\\project\\proxy.conf.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\0cf2e220-3905-4e05-9e7e-c12a2dee5c3b_project-bolt-sb1-wa3ydgrh.zip.c3b\\project\\proxy.conf.json",
+              "ToolTip": "C:\\Users\\Jehad\\AppData\\Local\\Temp\\0cf2e220-3905-4e05-9e7e-c12a2dee5c3b_project-bolt-sb1-wa3ydgrh.zip.c3b\\project\\proxy.conf.json [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\0cf2e220-3905-4e05-9e7e-c12a2dee5c3b_project-bolt-sb1-wa3ydgrh.zip.c3b\\project\\proxy.conf.json [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-12T04:37:09.884Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Log.cs",
+              "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Models\\Log.cs",
+              "RelativeDocumentMoniker": "Models\\Log.cs",
+              "ToolTip": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Models\\Log.cs",
+              "RelativeToolTip": "Models\\Log.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T02:34:32.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250109210829_Init.cs",
+              "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Migrations\\20250109210829_Init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250109210829_Init.cs",
+              "ToolTip": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Migrations\\20250109210829_Init.cs",
+              "RelativeToolTip": "Migrations\\20250109210829_Init.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T18:17:16.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoggingDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Models\\LoggingDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\LoggingDbContext.cs",
+              "ToolTip": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Models\\LoggingDbContext.cs",
+              "RelativeToolTip": "Models\\LoggingDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T17:00:38.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LogsController.cs",
+              "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Controllers\\LogsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LogsController.cs",
+              "ToolTip": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Controllers\\LogsController.cs",
+              "RelativeToolTip": "Controllers\\LogsController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T16:57:55.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BatchLogService.cs",
+              "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Services\\BatchLogService.cs",
+              "RelativeDocumentMoniker": "Services\\BatchLogService.cs",
+              "ToolTip": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Services\\BatchLogService.cs",
+              "RelativeToolTip": "Services\\BatchLogService.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAADwv8wAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T12:07:00.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T12:02:06.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-10T19:35:10.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-10T11:12:02.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoggingDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Migrations\\LoggingDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\LoggingDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Migrations\\LoggingDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\LoggingDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T18:17:39.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250109233138_removeLogAndAddmetadatefile.cs",
+              "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Migrations\\20250109233138_removeLogAndAddmetadatefile.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250109233138_removeLogAndAddmetadatefile.cs",
+              "ToolTip": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Migrations\\20250109233138_removeLogAndAddmetadatefile.cs",
+              "RelativeToolTip": "Migrations\\20250109233138_removeLogAndAddmetadatefile.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T23:31:38.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\Logging system\\docker-compose.yml",
+              "RelativeDocumentMoniker": "..\\..\\Logging system\\docker-compose.yml",
+              "ToolTip": "C:\\Users\\Jehad\\source\\repos\\Logging system\\docker-compose.yml",
+              "RelativeToolTip": "..\\..\\Logging system\\docker-compose.yml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-01-10T11:11:53.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "README.txt",
+              "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\README.txt",
+              "RelativeDocumentMoniker": "README.txt",
+              "ToolTip": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\README.txt",
+              "RelativeToolTip": "README.txt",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwB8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-01-10T21:33:35.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Dockerfile.original",
+              "DocumentMoniker": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Dockerfile.original",
+              "RelativeDocumentMoniker": "Dockerfile.original",
+              "ToolTip": "C:\\Users\\Jehad\\source\\repos\\LoggingSystem\\DistributedLoggingSystem\\Dockerfile.original",
+              "RelativeToolTip": "Dockerfile.original",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-10T11:55:50.918Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1029,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
