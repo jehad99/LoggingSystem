@@ -1,3 +1,26 @@
-.angular
-dist
-node_modules
+# Logs
+*.log
+npm-debug.log*
+
+# Node modules
+**/node_modules
+
+# Angular build outputs
+log-viewer/dist
+log-viewer/out-tsc
+
+# .NET outputs
+DistributedLoggingSystem/bin
+DistributedLoggingSystem/obj
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment and Secrets
+log-viewer/src/environments/environment*.ts
+*.env
+
+# OS Files
+.DS_Store
+Thumbs.db
