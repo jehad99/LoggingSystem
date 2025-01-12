@@ -78,7 +78,7 @@ services:
     build:
       context: ./log-viewer
     environment:
-      BACKEND_API_URL: "http://localhost:8080/api/logs"
+      BACKEND_API_URL: "http://localhost:8080/v1/logs"
     ports:
       - "4200:4200"
     networks:
@@ -91,7 +91,7 @@ services:
     depends_on:
       - distributed-logging-api
     environment:
-      API_URL: "http://distributed-logging-api:8080/api/logs/add"
+      API_URL: "http://distributed-logging-api:8080/v1/logs/add"
     networks:
       - backend
        

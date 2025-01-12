@@ -12,6 +12,7 @@ log-viewer/out-tsc
 # .NET outputs
 DistributedLoggingSystem/bin
 DistributedLoggingSystem/obj
+DistributedLoggingSystem/.vs
 
 # IDE files
 .vscode/

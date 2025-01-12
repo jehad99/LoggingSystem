@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 
 # Configuration
-API_URL = "http://distributed-logging-api:8080/api/logs/add"
+API_URL = "http://distributed-logging-api:8080/v1/logs/add"
 LOG_LEVELS = ["Info", "Warning", "Error"]
 MESSAGE_TEMPLATES = [
     "System started successfully.",

@@ -7,7 +7,7 @@ import { LogResponse } from '../models/log.model';
   providedIn: 'root'
 })
 export class LogService {
-  private apiUrl = 'api/logs';
+  private apiUrl = 'v1/logs';
 
   constructor(private http: HttpClient) {}
 
