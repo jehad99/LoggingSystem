@@ -18,6 +18,7 @@ MESSAGE_TEMPLATES = [
 def generate_log():
     """Generate a random log entry."""
     return {
+        "Service": "LogProducer",
         "Timestamp": datetime.utcnow().isoformat(),
         "Level": random.choice(LOG_LEVELS),
         "Message": random.choice(MESSAGE_TEMPLATES)

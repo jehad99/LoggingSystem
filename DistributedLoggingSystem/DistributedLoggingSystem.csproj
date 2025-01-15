@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>DistributedLoggingSystem</RootNamespace>
     <UserSecretsId>2e639bef-ebc0-48c8-bb33-bb001f8b60a6</UserSecretsId>

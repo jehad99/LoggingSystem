@@ -16,7 +16,6 @@ namespace DistributedLoggingSystem.Controllers
             _batchLogService = batchLogService;
         }
 
-        // POST: v1/logs/add
         [HttpPost("add")]
         public async Task<IActionResult> AddLog([FromBody] Log log)
         {
@@ -36,7 +35,6 @@ namespace DistributedLoggingSystem.Controllers
             }
         }
 
-        // GET: v1/logs/range
         [HttpGet("range")]
         public async Task<IActionResult> GetLogsByRange([FromQuery]  string service = null, string level = null, DateTime? startDate = null, DateTime? endDate = null, int page = 1, int pageSize = 10)
         {
