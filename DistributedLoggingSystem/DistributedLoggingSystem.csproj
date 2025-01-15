@@ -11,8 +11,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Log-Producer\**" />
+    <Content Remove="Log-Producer\**" />
+    <EmbeddedResource Remove="Log-Producer\**" />
+    <None Remove="Log-Producer\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="Dockerfile" />
-    <Content Include="Log-Producer\Dockerfile" />
   </ItemGroup>
 
   <ItemGroup>
